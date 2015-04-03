@@ -8,28 +8,28 @@ public:
 	SDFRenderer();
 	~SDFRenderer();
 
-	// Set texture width
+	// Set texture width.
 	// Param:
 	//       unsigned int newWidth:
-	//
+	//          New texture width.
 	void SetWidth(unsigned int newWidth);
 	
-	// Set texture height
+	// Set texture height.
 	// Param:
 	//       unsigned int newHeight:
-	//
+	//          New texture height.
 	void SetHeight(unsigned int newHeight);
 
-	// Set maximal distance for clamping
+	// Set maximal distance for clamping.
 	// Param:
 	//       float max:
-	//
+	//          New maximal distance.
 	void SetMaxDistance(float max);
 
-	// Set minimal distance for claming
+	// Set minimal distance for claming.
 	// Param:
 	//       float min:
-	//           
+	//          New minimal distance.
 	void SetMinDistance(float min);
 
 	// Create and clamp signed distance field.
